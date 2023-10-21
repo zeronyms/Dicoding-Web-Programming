@@ -90,3 +90,20 @@ h2, h3 {
         padding: 0;
     }
 }
+@media screen and (max-width: 1200px) {
+    main{
+        flex-flow: column nowrap;
+    }
+    main aside{
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    nav ul {
+        justify-content: center;
+    }
+    main aside {
+        align-self: stretch;
+    }
+}
