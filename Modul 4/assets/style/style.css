@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* body {
+    margin: 0 200px 0 200px;
+} */
+.border-debug {
+    border: 1px solid red;
+}
+/* ================================== */
+header{
+    display: inline;
+}
+nav {
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+    background: rgb(53, 53,53);
+}
+nav ul {
+    padding-inline: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+nav ul li {
+    list-style-type: none;
+} 
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+nav ul li a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181,181,181);
+}
+main {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    display: flex;
+    gap: 1.5rem;
+    min-height: fit-content;
+}
+.main-content {
+    flex: 5;
+    align-self: center;
+    text-align: center;
+}
+.title {
+    font-weight: 600;
+}
+.my-name{
+    font-size: 3rem;
+    text-align: center;
+}
+.main-content p {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.side-content{
+    flex: 3;
+    
+    display: flex;
+    margin: auto 0;
+    align-items: center;
+}
+.profile-pic{
+    border-radius: 20%;
+    height: 400px;
+    width: 400px;
+}
+#social-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+#social-container a{
+    /* border: 1px solid red; */
+    color: black;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+.btn-color-1, .btn-color-2{
+    border: rgb(53, 53, 53) 0.1rem solid;   
+}
+.btn-color-1:hover, .btn-color-2:hover{
+    cursor: pointer;
+}
+.btn-color-1, .btn-color-2:hover{
+    background: rgb(53, 53,53);
+    color: white;
+}
+.btn-color-1:hover {
+    background: rgb(0,0,0);
+}
+.btn-color-2 {
+    background: none;
+}
+.btn-color-2:hover {
+    border: rgb(255,255,255) 0,1rem solid;
+}
+
+social center{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
