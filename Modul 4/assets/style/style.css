@@ -67,15 +67,8 @@ main {
     height: 96vh;
     margin: 0 10rem;
     display: flex;
-    gap: 1.5rem;
-    /* min-height: fit-content; */
-    
+    gap: 1.5rem; 
 }
-/* .card {
-    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    padding: 20px;
-} */
 .main-content {
     flex: 5;
     align-self: center;
@@ -89,7 +82,7 @@ main {
     font-size: 3rem;
     text-align: center;
 }
-.main-content p {
+.main-content article p {
     text-align: center;
     font-size: 1.75rem;
     margin-bottom: 1rem;
@@ -198,7 +191,20 @@ footer {
     }
 }
 
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 627px){
+    .nav-icon {
+        display: none;
+    }
+    nav ul{
+        gap: 1rem;
+    }
+    nav ul li a{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
     .nav-icon {
         display: none;
     }
